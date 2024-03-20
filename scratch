@@ -1,0 +1,3 @@
+run in cmd 
+
+docker run --rm --pull=always -v "%cd%":/opt -w /opt laravelsail/php82-composer:latest bash -c "composer install"
